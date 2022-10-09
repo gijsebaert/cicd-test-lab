@@ -1,6 +1,8 @@
 #!/bin/bash
 set -euo pipefail
 
+rmdir tempdirFinal
+
 mkdir tempdirFinal
 mkdir tempdirFinal/templates
 mkdir tempdirFinal/static
